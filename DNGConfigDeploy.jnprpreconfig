@@ -1,0 +1,83 @@
+schema version {
+    version: "1"
+}
+
+machine settings {
+    version: "14"
+    guid: "fa7c1ea0-7429-4e14-a02f-6518bc7f159e"
+    connection-source: "preconfig"
+    server-id: "0241MF93A0BRY1V6"
+    allow-save: "true"
+    user-connection: "true"
+    splashscreen-display: "true"
+    dynamic-trust: "true"
+    dynamic-connection: "true"
+    FIPSClient: "false"
+    wireless-suppression: "false"
+}
+
+ive "c15e4154-a43a-4eba-9503-2003dd5b8b63" {
+    friendly-name: "WarnerMedia US"
+    version: "3"
+    guid: "c15e4154-a43a-4eba-9503-2003dd5b8b63"
+    server-id: "0241MF93A0BRY1V6"
+    connection-source: "preconfig"
+    connection-policy-override: "true"
+    use-for-secure-meetings: "false"
+    use-for-connect: "true"
+    this-server: "false"
+    uri: "https://ework-atl.turner.com"
+    connection-identity: "user"
+    preferred-realm: "Users"
+    client-certificate-location-system: "false"
+}
+
+ive "a25b91c4-f1ca-420a-8008-696c107b586c" {
+    friendly-name: "WarnerMedia US alt01"
+    version: "3"
+    guid: "a25b91c4-f1ca-420a-8008-696c107b586c"
+    server-id: "0241MF93A0BRY1V6"
+    connection-source: "preconfig"
+    connection-policy-override: "true"
+    use-for-secure-meetings: "false"
+    use-for-connect: "true"
+    this-server: "false"
+    uri: "https://ework-twd.turner.com"
+    connection-identity: "user"
+    preferred-realm: "Users"
+    client-certificate-location-system: "false"
+}
+
+ive "49b8fbb7-2351-444d-9d1c-351d1f097da0" {
+    friendly-name: "WarnerMedia US alt02"
+    version: "3"
+    guid: "49b8fbb7-2351-444d-9d1c-351d1f097da0"
+    server-id: "0241MF93A0BRY1V6"
+    connection-source: "preconfig"
+    connection-policy-override: "true"
+    use-for-secure-meetings: "false"
+    use-for-connect: "true"
+    this-server: "false"
+    uri: "https://ework-la.turner.com"
+    connection-identity: "user"
+    preferred-realm: "Users"
+    client-certificate-location-system: "false"
+}
+ive "d8670dd9-75ba-44e9-8384-08a5854c99e3" {
+    friendly-name: "WarnerMedia UK"
+    version: "2"
+    guid: "d8670dd9-75ba-44e9-8384-08a5854c99e3"
+    server-id: "0241MF93A0BRY1V6"
+    connection-source: "preconfig"
+    connection-policy-override: "true"
+    use-for-secure-meetings: "false"
+    use-for-connect: "true"
+    this-server: "false"
+    uri: "https://ework-ldn.turner.com"
+    connection-identity: "user"
+    preferred-realm: "Users"
+    client-certificate-location-system: "false"
+}
+
+[Settings]
+testvalue=1
